@@ -77,7 +77,7 @@ namespace ManejoArchivos
             Console.WriteLine("LISTA DE EMPLEADOS");
             Console.WriteLine("Cédula\tNombre\tCargo\tSalario");
 
-            // Abrir el lector del archivo
+            // Abrir el lector del archivo txt
             StreamReader reader = new StreamReader(RUTA_ARCHIVO);
             string linea = string.Empty;
 
